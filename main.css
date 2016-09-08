@@ -21,3 +21,14 @@
 body {
     background-image: url("");  
 }
+
+img {
+    height: 100px;
+    width: 200px;
+}
+
+.carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 10000px;
+    height: 400px;
+}
