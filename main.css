@@ -1,5 +1,9 @@
+html {
+    background-color: #000066;
+}
+
 #navigation-1 {
-  background-color: #141414; 
+  background-color: #141414;
   color: #ffffff;
   min-width: 50%;
 }
@@ -19,7 +23,8 @@
 }
 
 body {
-    background-image: url("");  
+    background-color: #000066;
+/*    background-image: url("");  */
 }
 
 img {
@@ -31,4 +36,8 @@ img {
     display: block;
     width: 10000px;
     height: 400px;
+}
+
+h1, h2 {
+    color: #ffffff;
 }
