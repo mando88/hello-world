@@ -1,0 +1,33 @@
+html {
+    background-color: #000066;
+}
+
+#navigation-1 {
+  background-color: #141414;
+  color: #ffffff;
+  min-width: 50%;
+}
+ 
+#navigation-1 a {
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  padding: 0 133px;
+  border-right: 1px solid #8c8ab0;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+#navigation-1 a:hover {
+  color: #d4383a;
+}
+
+body {
+    background-color: #000066;
+/*    background-image: url("");  */
+}
+
+img {
+    height: 100px;
+    width: 200px;
+}
