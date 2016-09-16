@@ -31,3 +31,8 @@ img {
     height: 100px;
     width: 200px;
 }
+
+h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+}
