@@ -1,7 +1,7 @@
 html {
-    background-color: #000066;
+/*    background-color: #000066;*/
 }
-
+/**/
 #navigation-1 {
   background-color: #141414;
   color: #ffffff;
@@ -24,7 +24,8 @@ html {
 
 body {
     background-color: #000066;
-/*    background-image: url("");  */
+    background-image: url("http://wallpapercave.com/wp/EhjP78R.jpg");
+        background-size:cover;
 }
 
 img {
@@ -41,11 +42,17 @@ img {
 h1, h2 {
     color: #ffffff;
     font-family: "helvetica", sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #012C61;
 }
 
 p {
     color: #ffffff;
-    margin: 40px;
-    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 30px;
     background-color: #012C61;
 }
