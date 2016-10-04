@@ -5,10 +5,10 @@
 }
  
 #navigation-1 a {
-  height: 80px;
-  line-height: 80px;
+  height: 60px;
+  line-height: 60px;
   display: inline-block;
-  padding: 0 133px;
+  padding: 0 143px;
   border-right: 1px solid #8c8ab0;
   color: #fff;
   text-decoration: none;
@@ -27,7 +27,7 @@ body {
 img {
     height: 100px;
     width: 200px;
-    padding: 2px;
+    padding: 8px;
 }
 
 h1 {
@@ -43,7 +43,7 @@ p {
     color: #ffffff;
     font-family: sans-serif;
     margin: 20px;
-    padding: 10px;
+    padding: 8px;
     background-color: #012C61;
     font-size: 18px;
 }
