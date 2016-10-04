@@ -31,6 +31,7 @@ body {
 img {
     height: 100px;
     width: 200px;
+    padding: 2px;
 }
 
 .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
