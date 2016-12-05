@@ -12,14 +12,25 @@ $(document).ready(function() {
    $('h1').click(function() {
        $(this).toggle(1000);
    });
-//    $('h1').mouseleave(function() {
-//       $(this).toggle(1000);
-//   });
+    $('button').click(function() {    
+        $('img').fadeIn('.p');
+        $('button').fadeOut('.p');
+    });
     
-//    $('div').mouseenter(function() {
-//        $('div').fadeTo('fast', -1.00);
-//    });
-//    $('div').mouseleave(function() {
-//        $('div').fadeTo('fast', 1.00);
-//    });
+    $(document).keydown(function(key) {
+        switch(parseInt(key.which,10)) {
+			case 37:
+				$('#move').animate({left: "-=10px"}, 'fast');
+				break;
+			case 38:
+			    $('#move').animate({top: "-=10px"}, 'fast');
+				break;
+			case 39:
+			    $('#move').animate({left: "+=10px"}, 'fast');
+				break;
+			case 40:
+			    $('#move').animate({top: "+=10px"}, 'fast');
+				break;
+		}
+	});
 });
