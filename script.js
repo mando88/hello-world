@@ -13,23 +13,23 @@ $(document).ready(function() {
        $(this).toggle(1000);
    });
     $('button').click(function() {    
-        $('img').fadeIn('.p');
+        $('img').fadeOut('.p');
         $('button').fadeOut('.p');
     });
     
     $(document).keydown(function(key) {
         switch(parseInt(key.which,10)) {
-			case 37:
-				$('#move').animate({left: "-=10px"}, 'fast');
+			case 65:
+				$('#move').animate({left: "-=200px"}, 'fast');
 				break;
-			case 38:
-			    $('#move').animate({top: "-=10px"}, 'fast');
+			case 87:
+			    $('#move').animate({top: "-=200px"}, 'fast');
 				break;
-			case 39:
-			    $('#move').animate({left: "+=10px"}, 'fast');
+			case 68:
+			    $('#move').animate({left: "+=200px"}, 'fast');
 				break;
-			case 40:
-			    $('#move').animate({top: "+=10px"}, 'fast');
+			case 83:
+			    $('#move').animate({top: "+=200px"}, 'fast');
 				break;
 		}
 	});
