@@ -16,7 +16,10 @@ $(document).ready(function() {
         $('img').fadeOut('.p');
         $('button').fadeOut('.p');
     });
-    
+    $('button').click(function() {    
+        $('video').fadeOut();
+        $('video').fadeIn();
+    });    
     $(document).keydown(function(key) {
         switch(parseInt(key.which,10)) {
 			case 65:
@@ -33,4 +36,7 @@ $(document).ready(function() {
 				break;
 		}
 	});
+        $('p').click(function() {
+        $(this).effect('explode');
+    });
 });
