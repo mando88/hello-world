@@ -47,3 +47,18 @@ p {
     background-color: #012C61;
     font-size: 18px;
 }
+
+#button{
+    display: inline-block;
+    height:20px;
+	width:70px;
+	background-color:#cc0000;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+        float: right;
+        margin-right: 5px;
+}
